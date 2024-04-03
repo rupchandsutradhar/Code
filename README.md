@@ -4,7 +4,17 @@ Here, the codes are presented to estimate the parameters.   They are written for
 
  The experimental data are given in the files "Ch1603_experimental_data.xlsx"  and "Ch1616_experimental_data"   for validation purposes.
 
- For Ch1603
-  1. Ch1603_validation_with_experimental_data
- For Ch1616
-  1. Ch1616_validation_with_experimental_data
+ 1. For Ch1603 
+    1. Ch1603_28_182.m:  parameter estimation for  28 to 182 days.
+    2. Ch1603_182_385.m:  parameter estimation for  182 to 385 days.
+    3. Ch1603_validation_with_experimental_data.m: Final plots
+    4. Ch1603_experimental_data.xlsx:  Experimental data  
+
+     
+ 2. For Ch1616
+    1. Ch1616_28_182.m:  parameter estimation for  28 to 182 days.
+    2. Ch1616_182_413.m:  parameter estimation for  182 to 413 days.
+    3. Ch1616_validation_with_experimental_data.m: Final plots
+    4. Ch1616_experimental_data.xlsx:  Experimental data
+
+ 3. fminsearchbnd.m: Keep the m-file in the same folder. This function minimize error in the time of parameter estimation.
